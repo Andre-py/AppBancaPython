@@ -299,7 +299,6 @@ def FalaContaParaDeposito(fala,contaAtual=None,Retirada=False,Extrato=False):
             if contaAtual[tiposConta[i]] is None:
                 fala += f'\n{ i + 1 } - {tiposConta[i]} '
                 listaModalidades[i+1]=tiposConta[i]
-    print(listaModalidades)
     return fala,listaModalidades
 
 def limpar_terminal():
@@ -390,9 +389,6 @@ def MostrarExtrato(ContaCliente):
             print('Erro de Digitacao')
     return ContaCliente
 
-if __name__ == '__main__':
-    pass
-    #DigiteModalidadeDaConta()
-    #Senha(Nova=True)
+
 
 

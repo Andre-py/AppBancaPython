@@ -92,17 +92,5 @@ def Saldo(Account,TipoConta):
     return saldo
 
 
-if __name__ == '__main__':
-    pass
-    conta=Carregar('BancoContas',f'ContaTeste.acc')
-    print(conta)
-    #print(conta)
-    #VerSaldo(conta)
-    #Cliente(conta)
-    #FazerDeposito(conta, Nova=False)
-    #print(conta)
-    saldos = VerSaldo(conta, mostrar=False)
-    #MostrarExtrato(conta)
-    FazerRetirada(conta,saldos)
 
 

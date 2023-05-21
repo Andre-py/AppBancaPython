@@ -39,8 +39,3 @@ def Lista_de_Arquivos(pasta):
     preLista=os.listdir(filename)
     return preLista
 
-
-if __name__ == '__main__':
-    from configuracoes_gerais import PastaRedes
-    print(Criando_Lista_Redes(PastaRedes, ColunaAdd=0))
-
